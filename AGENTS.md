@@ -66,3 +66,26 @@ latexmk -c
 - Greenfield: No content yet
 - Coordinate with Lean formalization for results
 - Use `/latex-scaffold` skill for project setup
+
+## GITIGNORE
+
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# PDF output
+output/*.pdf
+
+# Editor
+.vscode/
+.DS_Store
+
+# Environment
+.env
+```
